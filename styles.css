@@ -1,0 +1,264 @@
+body{
+  text-align: center;
+  font-family: poppins, sans-serif;
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  background-color: #D4B499;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.logo{
+  position: absolute;
+  top: 3.4%;
+  left: 5%;
+}
+.logo-text{
+  font-size: 2.8rem;
+  color: #F32424;
+  font-family: Lobster;
+}
+.logo-text:hover{
+  text-shadow: 2px 2px #F2F2F2;
+}
+.logo-span{
+  color: #F2F2F2;
+}
+.logo-span:hover{
+  text-shadow: 2px 2px #F32424;
+}
+.navbar{
+  background-color: #112B3C;
+}
+.navbar ul{
+  margin: 0 0 0 50%;
+  padding: 0.5% 1%;
+}
+.navbar li{
+  display:inline-block;
+  margin:4%;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.navbar a{
+  color:#F66B0E;
+}
+.navbar li:hover{
+  text-decoration: underline 3px;
+}
+.hero-title{
+  width: 50%;
+  margin-right: 0;
+}
+.hero-section{
+  margin: 10em 0 14em 0;
+}
+.heading{
+  font-weight: bold;
+  font-size:2.5rem;
+}
+.sub-heading p{
+  font-style: italic;
+  margin-top: 5em;
+  font-size: 1.2rem;
+  line-height: 1.75;
+}
+.jimmy-img{
+  position: absolute;
+  width: 35%;
+  top: 25%;
+  left: 55%;
+}
+.skills-hr{
+  border-style: dotted;
+  border-color: #112B3C;
+  width: 6%;
+  border-width: 1em;
+  border-bottom: 0;
+  margin-bottom: 8em;
+}
+
+/* Skills Section */
+.skills-h1{
+  font-weight: bold;
+  font-size: 4rem;
+  margin-bottom: 2.5em;
+}
+.both-lists{
+  display:inline-flex;
+  margin-bottom: 8em;
+}
+.skills-list{
+  width: 50%;
+  margin: 0 18em;
+  text-align: center;
+}
+.t_list1, .t_list2{
+  display:inline-block;
+  text-align: center;
+  list-style: none;
+}
+
+.skills-list-h2, .tech-h2{
+  color: #764AF1;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 2.4rem;
+}
+.tech-list{
+  width: 50%;
+  margin: 0 18em;
+  text-align: left;
+}
+.skills-ul li, .tech-list li{
+  font-size: 1.6rem;
+}
+.skills-ul li:hover, .tech-list li:hover{
+  background-color: #EEEBDD;
+  border-radius: 20%;
+}
+.down-arrow{
+  margin-top: 2em;
+  margin-bottom: 1.4em;
+  width: 3.4em;
+}
+/* Animation property */
+.down-arrow:hover{
+  animation: wiggle 2s linear infinite;
+}
+/* Keyframes */
+@keyframes wiggle {
+ 0%, 7%{
+   transform: rotateZ(0);
+ }
+ 15%{
+   transform: rotateZ(-15deg);
+ }
+ 20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+/* Project Section */
+.project-h1{
+  font-size: 4rem;
+  margin: 0 0 2em 0;
+}
+.left-arrow, .right-arrow{
+  margin: 10em 3em;
+}
+.left-arrow:hover, .right-arrow:hover{
+  animation: fade 0.7s linear infinite;
+}
+@keyframes fade {
+  100%, 0% { opacity: 0 }
+  50% { opacity: 1 }
+}
+.right-arrow{
+  transform: rotateY(180deg);
+}
+.carousal{
+  background-color: #E4D6CB;
+  display: inline-flex;
+  margin-bottom: 5em;
+}
+.carousal-slide{
+  position: relative;
+  width: 20em;
+  height: 25em;
+  border-radius: 5%;
+  margin: 2em 0.5em;
+  display: inline-flex;
+}
+.img-slide{
+  position: absolute;
+  top: 1.5em;
+  left: 2.5em;
+  width:14.8em;
+  height: 19.7em;
+  border: solid gray 2px;
+  border-radius: 5%;
+}
+.carousal-link{
+  display: inline-flex;
+  height: 2em;
+}
+.img-link{
+  position: absolute;
+  top: 19em;
+  left: 6.4em;
+  color: #112B3C;
+  font-family: poppins;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.img-link:hover{
+  color: #DA0037;
+}
+.contact-h1{
+  font-size: 4rem;
+}
+.contact-content{
+  width: 50%;
+  text-align: left;
+  margin: 5% 15%;
+}
+.name-input, .mail-input, .title-input, .message-input{
+  margin: 0.2em 1em 2em;
+  padding: 0 0.5em;
+}
+.cont-h2{
+  font-size: 2rem;
+  color: #764AF1;
+}
+.contact-details{
+  width: 50%;
+}
+.mail-form{
+  background-color: #E4D6CB;
+  border-radius: 5%;
+  padding: 2.5em;
+}
+.submitBtn_input{
+  margin: 1em 0 0 0;
+}
+.form-button{
+  font-size: 1.2rem;
+  border-radius: 14%;
+  border: none;
+}
+.social-icons{
+  position: absolute;
+  top: 316%;
+  left: 70%;
+}
+.socials-h2{
+  font-size: 2rem;
+  color: #764AF1;
+}
+.icon{
+  padding: 0 0.5em 0.5em 0;
+  margin: 0.8em 0.5em 0.8em 0;
+}
+#insta-logo:hover, #twitter-logo:hover, #meta-logo:hover, #github-logo:hover, #linkedin-logo:hover{
+   animation: wiggle 2s linear infinite;
+}
+#contact-section{
+  margin-bottom: 14em;
+}
